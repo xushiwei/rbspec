@@ -7,8 +7,8 @@ import "github.com/xushiwei/rbspec"
 const _ = true
 
 type A struct {
-	rbspec.Robot
-	*Game
+	rbspec.RobotImpl
+	*rbspec.RobotGame
 }
 type B struct {
 	rbspec.SpriteImpl
